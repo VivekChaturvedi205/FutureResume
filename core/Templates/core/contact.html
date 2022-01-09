@@ -1,0 +1,58 @@
+{% extends 'core/base.html' %} {% block content %}
+<div class="container mt-5">
+    <h1 class="text-warning mb-5 border-bottom ">CONTACT</h1>
+    <div class="row text-white">
+        <div class="col-sm-8">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="inputEmail4">Your Name</label>
+                        <input type="name" class="form-control mt-2" id="Name">
+                    </div>
+                    <div class="form-group col-md-4 mt-3">
+                        <label for="inputPassword4">Your Email *</label>
+                        <input type="email" class="form-control mt-2" id="Email">
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <label for="inputAddress">Subject</label>
+                    <input type="text" class="form-control mt-2" id="inputsubject">
+                </div>
+                <div class="form-group mt-3">
+                    <label for="inputAddress2"></label>Your Message *</label>
+                    <textarea type="textarea" class="form-control mt-2" rows="5" id="inputAddress2"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Send</button>
+            </form>
+        </div>
+        <div class="col-sm-4 text-center mt-5">
+            <div class="row">
+                <div class="col mt-5">
+                    <i class="fas fa-map-marker-alt fa-2x i-color"></i>
+                    <h6>Sec-50 Faridabad, Delhi</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-5">
+                    <i class="fas fa-phone fa-2x i-color"></i>
+                    <h6><a href="tel:+919811694732" style="">+91 9811694732</a></h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-5">
+                    <i class="fas fa-envelope fa-2x i-color"></i>
+                    <h6><a href="mailto:vivekchaubey205@gmail.com">vivekchaubey205@gmail.com</a></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center m-3">
+        <div class="col mr-5">
+        <i class="fab fa-instagram-square i-color"></i>
+        <i class="fab fa-facebook i-color "></i>
+        <i class="fab fa-linkedin i-color "></i>
+    </div>
+    </div>
+</div>
+
+{% endblock content %}
